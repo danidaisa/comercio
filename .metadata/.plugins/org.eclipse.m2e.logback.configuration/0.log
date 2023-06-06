@@ -10,3 +10,6 @@ org.eclipse.core.runtime.CoreException: Can't read Maven project
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 2023-06-02 08:38:36,570 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
 2023-06-02 08:38:40,111 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-06-06 08:01:39,681 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.1.0/spring-boot-starter-parent-3.1.0.pom
+2023-06-06 08:01:39,680 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/3.1.0/spring-boot-starter-parent-3.1.0.pom
+2023-06-06 08:02:21,768 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
